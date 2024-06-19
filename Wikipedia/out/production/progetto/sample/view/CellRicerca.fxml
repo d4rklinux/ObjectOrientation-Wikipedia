@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootAnchorPane" focusTraversable="true" prefHeight="93.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="dateLabel" layoutX="325.0" layoutY="58.0" prefHeight="17.0" prefWidth="71.0" text="Date created">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="hourLabel" layoutX="346.0" layoutY="71.0" prefHeight="17.0" prefWidth="42.0" text="Hour created " textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="readIcon" fitHeight="26.0" fitWidth="26.0" layoutX="432.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Pagina%20Autore/icons8-visualizza-file-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="modifyIcon" fitHeight="26.0" fitWidth="60.0" layoutX="469.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Pagina Autore/icons8-modifica-proprietà-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="60.0" layoutX="294.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Pagina Autore/icons8-baby-calendar-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Pagina%20Autore/icons8-titolo-64.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="pageLabel" layoutX="110.0" layoutY="25.0" prefHeight="20.0" prefWidth="437.0" text="Page">
+         <font>
+            <Font name="Helvetica" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="23.0" prefHeight="24.0" prefWidth="63.0" text="Titolo:">
+         <font>
+            <Font name="Helvetica Bold" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="37.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Pagina%20Autore/icons8-persona-64.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="autoreLabel" layoutX="71.0" layoutY="63.0" prefHeight="16.0" prefWidth="159.0" text="AutoreLabel">
+         <font>
+            <Font name="Helvetica Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

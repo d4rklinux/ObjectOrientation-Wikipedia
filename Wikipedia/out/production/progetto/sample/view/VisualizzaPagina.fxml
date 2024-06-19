@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.VisualizzaPaginaController">
+   <children>
+      <Text layoutX="16.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titolo:" textAlignment="CENTER" wrappingWidth="63.21630859375">
+         <font>
+            <Font name="Courier New" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="title" alignment="TOP_LEFT" layoutX="79.0" layoutY="92.0" prefHeight="23.0" prefWidth="600.0" text="Da Visualizzare">
+         <font>
+            <Font name="Helvetica Bold" size="15.0" />
+         </font></Label>
+      <Separator layoutX="14.0" layoutY="111.0" prefHeight="2.0" prefWidth="668.0" />
+      <TextArea fx:id="textArea" editable="false" layoutX="16.0" layoutY="154.0" prefHeight="728.0" prefWidth="668.0" wrapText="true" />
+      <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="559.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/wiki.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="14.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Da Wikipedia, l'enciclopedia libera." textAlignment="CENTER" wrappingWidth="188.70556640625">
+         <font>
+            <Font name="Helvetica" size="12.0" />
+         </font>
+      </Text>
+      <Label fx:id="dateLabel" layoutX="612.0" layoutY="118.0" prefHeight="17.0" prefWidth="71.0" text="Date created">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="hourLabel" layoutX="624.0" layoutY="132.0" prefHeight="17.0" prefWidth="46.0" text="Hour created " textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="585.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Pagina%20Autore/icons8-baby-calendar-64.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="autoreLabel" layoutX="411.0" layoutY="123.0" prefHeight="16.0" prefWidth="159.0" text="AutoreLabel">
+         <font>
+            <Font name="Helvetica Bold" size="13.0" />
+         </font>
+      </Label>
+      <Text layoutX="348.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autore:" textAlignment="CENTER" wrappingWidth="63.21630859375">
+         <font>
+            <Font name="Courier New" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="318.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Pagina%20Autore/icons8-persona-64.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="pagineLabel" layoutX="349.0" layoutY="47.0" prefHeight="23.0" prefWidth="124.0" text="Pagine Create:">
+         <font>
+            <Font name="Courier New" size="14.0" />
+         </font></Label>
+      <Label fx:id="numPag" layoutX="473.0" layoutY="51.0" prefHeight="16.0" prefWidth="96.0" text="Num">
+         <font>
+            <Font name="Helvetica Bold" size="13.0" />
+         </font></Label>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="318.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Pagina%20Autore/icons8-pagine-64.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

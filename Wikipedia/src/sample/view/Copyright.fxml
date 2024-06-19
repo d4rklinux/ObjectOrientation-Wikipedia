@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.CopyrightController">
+   <children>
+      <TextArea editable="false" layoutX="215.0" layoutY="178.0" prefHeight="496.0" prefWidth="566.0" text="Lo scopo di Wikipedia è creare una fonte di informazione sotto forma di enciclopedia liberamente disponibile. &#10;La licenza che usiamo garantisce un accesso libero ai nostri contenuti, nello stesso senso in cui il software libero può essere utilizzato liberamente. Ciò significa che il contenuto di Wikipedia può essere copiato, modificato e ridistribuito, a patto che la nuova versione garantisca la stessa libertà ad altri e riconosca il lavoro degli autori delle voci di Wikipedia usate.&#10;Le voci di Wikipedia perciò rimarranno libere per sempre e possono essere usate da chiunque a certe condizioni, la maggior parte delle quali serve proprio per garantire questa libertà. &#10;&#10;• Non utilizzare mai materiale che viola il copyright altrui&#10;&#10;• Utilizzare materiale che vìola l'altrui diritto d'autore potrebbe dar luogo a responsabilità legali (che resterebbero personalmente in capo a chi commette la violazione) e danneggiare seriamente il progetto.&#10;&#10;Attenzione: il diritto d'autore è riconosciuto a titolo originario e perciò non va di volta in volta precisato: quando trovi del materiale privo di indicazioni sulla licenza con la quale è pubblicato, si deve presumere che esso sia coperto da copyright.&#10;Solo se il materiale è accompagnato da una indicazione di licenza di &quot;pubblico dominio&quot; o CC BY-SA potrai riutilizzarlo in Wikipedia&#10;Se hai dei dubbi, realizza da solo il testo, scrivendolo di tuo pugno, o scatta tu stesso una fotografia, invece di utilizzare materiale di terzi.&#10;&#10;• Traduzioni e diritti d'autore&#10;&#10;Sia le traduzioni di un testo che la possibilità di tradurre un testo sono soggette alle norme sul diritto d'autore. &#10;&#10;Nota che il copyright controlla l'espressione creativa delle idee, non l'idea o l'informazione stessa. Per questo motivo, è perfettamente legale leggere un testo, una voce enciclopedica o altro tipo di opera, riformularlo con parole proprie e pubblicarlo su Wikipedia. (Ciascun caso specifico può richiedere ulteriori discussioni su quanto debba essere estesa la riformulazione in un particolare contesto.) &#10;&#10;• Se trovi una violazione del copyright&#10;&#10;Analizzare ogni voce alla ricerca di possibili violazioni del copyright non è la parte più tipica del lavoro dei Wikipediani (che si occupano di ordinare e classificare le informazioni) ma, se pensate di aver trovato una voce di questo genere,contattate gli indirizzi elencati su contatti.&#10;&#10;• Se concedi l'uso del materiale presente sul tuo sito o su altre fonti&#10;&#10;Puoi offrire materiale sotto licenza libera a Wikipedia e risolvere eventuali problemi di copyright se:&#10;&#10;• sei l'unico autore/detentore dei diritti dei contenuti; oppure&#10;• puoi inoltrarci l'autorizzazione scritta da parte dell'autore/detentore dei diritti &#10;" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="73.0" fitWidth="61.0" layoutX="470.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/copyright/Copyright-problem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logoWikiButton" fitHeight="150.0" fitWidth="200.0" layoutX="57.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/itwiki.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="homeButton" layoutX="50.0" layoutY="359.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Home" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="citareWikiButton" layoutX="50.0" layoutY="426.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Citare Wikipedia" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="contattiButton" layoutX="50.0" layoutY="394.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Contatti" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="faqButton" layoutX="50.0" layoutY="459.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="FAQ" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Text layoutX="216.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Immagina un mondo in cui ciascuno possa avere libero accesso a tutto il patrimonio della conoscenza umana. Questo è il nostro scopo." textAlignment="CENTER" wrappingWidth="552.70556640625">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="216.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wikipedia:Copyright" wrappingWidth="287.70556640625">
+         <font>
+            <Font name="Helvetica" size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

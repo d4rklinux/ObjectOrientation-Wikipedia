@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" style="-fx-border-color: transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.ContattiController">
+   <children>
+      <TextArea editable="false" layoutX="217.0" layoutY="166.0" prefHeight="511.0" prefWidth="569.0" text="Come contattare Wikipedia, l'enciclopedia libera&#10;Informazioni importanti: &#10;•Wikipedia non ha un comitato di redazione né un responsabile editoriale. Non esiste una redazione.&#10;•Wikipedia è scritta e curata esclusivamente da volontari da tutto il mondo.&#10;•Wikipedia è consultabile gratuitamente ed è priva di pubblicità&#10;•Wikipedia è un progetto sostenuto da una organizzazione non-profit &#10;•Per ulteriori informazioni, vedi le FAQ (domande frequenti).&#10;•Per problemi riguardanti una voce ti invitiamo a segnalare il problema  per provare a &#10;risolverlo più velocemente ed efficacemente.&#10;•Per favore, scrivete solo per argomenti correlati a Wikipedia.&#10;•Non inviate comunicati o lettere di presentazione, che saranno ignorati&#10;•Si può chiedere aiuto su questioni tecniche relative a Wikipedia rivolgendosi tramite email.&#10;&#10;&#10;&#10;&#10;&#10;Puoi contattarci tramite email:&#10;ale.martiniello@studenti.unina.it, r.imer@studenti.unina.it, cr.marano@studenti.unina.it&#10;&#10;&#10;&#10;" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="logoWikiButton" fitHeight="150.0" fitWidth="200.0" layoutX="54.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/itwiki.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="homeButton" layoutX="47.0" layoutY="374.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Home" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="copyrightButton" layoutX="47.0" layoutY="409.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Copyright" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="faqButton" layoutX="47.0" layoutY="482.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="FAQ" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="citareWikiButton" layoutX="47.0" layoutY="445.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Citare Wikipedia" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Text layoutX="217.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contatti" wrappingWidth="287.70556640625">
+         <font>
+            <Font name="Helvetica" size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

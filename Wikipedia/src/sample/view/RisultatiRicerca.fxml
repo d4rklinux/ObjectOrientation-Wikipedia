@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RisultatiRicercaController">
+   <children>
+      <ListView fx:id="listPage" layoutX="194.0" layoutY="98.0" prefHeight="576.0" prefWidth="587.0" style="-fx-border-color: #01579b;" />
+      <TextField fx:id="scriviRicercaButton" layoutX="310.0" layoutY="38.0" prefHeight="41.0" prefWidth="276.0" promptText="Cerca in Wikipedia" style="-fx-background-color: transparent; -fx-border-color: #01579b;">
+         <font>
+            <Font name="Courier New" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="cercaButton" layoutX="586.0" layoutY="38.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="64.0" text="Cerca">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="homeButton" layoutX="47.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Home">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="paginaAutoreButton" layoutX="47.0" layoutY="331.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Indietro">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="logoWikiButton" fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/itwiki.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

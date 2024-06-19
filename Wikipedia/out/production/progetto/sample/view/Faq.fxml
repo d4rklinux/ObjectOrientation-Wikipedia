@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.FaqController">
+   <children>
+      <ImageView fx:id="logoWikiButton" fitHeight="150.0" fitWidth="200.0" layoutX="67.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/itwiki.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="227.0" layoutY="193.0" prefHeight="487.0" prefWidth="559.0" text="Esplorare Wikipedia - Guida per gli Utenti&#10;&#10;• Indice&#10;1. Per tutti gli utenti&#10;2. Per gli utenti registrati&#10;3. Pagine correlate&#10;4. Sportello informazioni&#10;&#10;Esistono vari modi per navigare su it.wiki, alcuni aperti a tutti gli utenti (lettori e contributori), altri riservati agli utenti registrati.&#10;&#10;• Per tutti gli utenti&#10;&#10;Puoi iniziare dalla pagina principale, raggiungibile cliccando sul logo di Wikipedia a sinistra di ogni pagina o dal collegamento &quot;home&quot; sotto il logo. Sulla pagina principale, accanto a &quot;Benvenuti su Wikipedia&quot;, troverai tre strumenti fondamentali:&#10;&#10;• Un tasto di ricerca per cercare titoli creati o modificati dagli autori.&#10;• Un tasto di login per effettuare l'accesso se sei già registrato.&#10;• Un tasto di registrazione per iscriverti come &quot;Autore&quot; e creare contenuti, o come &quot;Utente&quot; per modificare o correggere errori degli autori.&#10;&#10;• Esempio di utilizzo del box di ricerca:&#10;&#10;Se cerchi un argomento specifico, scrivi una o due parole chiave nel box &quot;ricerca&quot; in alto a destra. Dopo aver inserito le parole chiave, premi &quot;cerca&quot; o clicca sulla lente d'ingrandimento. Un menu a tendina ti proporrà opzioni man mano che inserisci le lettere. Le migliori voci di Wikipedia sono raccolte nella Vetrina, visibile anche sulla pagina principale.&#10;&#10;Quando leggi una voce, segui i collegamenti in blu presenti nelle voci. Per conoscere le ultime modifiche su Wikipedia, consulta la pagina &quot;Ultime modifiche&quot; sotto il logo di Wikipedia, che include un collegamento alle &quot;Pagine nuove&quot; nel riquadro &quot;Legenda&quot;.&#10;&#10;• Per gli utenti registrati&#10;&#10;Alcune funzioni di ricerca sono riservate agli utenti registrati, a patto che effettuino il login. Gli Autori possono cercare testi, creare e modificare pagine, nonché eliminare pagine indesiderate. Gli Autori hanno anche una sezione notifiche per gestire le modifiche ai loro testi.&#10;&#10;Gli Utenti registrati possono cercare testi nella wiki e modificare pagine, previa accettazione dell'autore originale. Le modifiche possono riguardare frasi, parole o l'intero testo." wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="homeButton" layoutX="60.0" layoutY="369.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Home" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="contattiButton" layoutX="60.0" layoutY="402.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Contatti" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="copyrightButton" layoutX="60.0" layoutY="437.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Copyright" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="citareWikiButton" layoutX="60.0" layoutY="474.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Citare Wikipedia" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="68.0" fitWidth="66.0" layoutX="429.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Faq/faq.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="230.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAQ sta per Frequently Asked Questions, ovvero le domande ricorrenti degli utenti. Qui trovi una lista delle domande con le risposte più frequenti che vengono fornite ai nuovi arrivati. " textAlignment="CENTER" wrappingWidth="552.70556640625">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="219.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wikipedia:FAQ" wrappingWidth="287.70556640625">
+         <font>
+            <Font name="Helvetica" size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

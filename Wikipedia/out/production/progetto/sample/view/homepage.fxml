@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.HomePageController">
+
+   <children>
+      <ListView fx:id="listPage" layoutX="190.0" layoutY="146.0" prefHeight="489.0" prefWidth="600.0" style="-fx-border-color: #01579b;" />
+      <TextField fx:id="scriviRicercaButton" layoutX="491.0" layoutY="95.0" prefHeight="41.0" prefWidth="229.0" promptText="Cerca in Wikipedia" style="-fx-background-color: transparent; -fx-border-color: #01579b;">
+         <font>
+            <Font name="Courier New" size="13.0" />
+         </font>
+      </TextField>
+      <ToggleButton fx:id="cercaButton" layoutX="720.0" layoutY="95.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="64.0" style="-fx-border-width: 1px;" text="Cerca" textAlignment="CENTER" textFill="#01579b">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </ToggleButton>
+      <Button fx:id="contattiButton" layoutX="27.0" layoutY="359.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Contatti" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="copyrightButton" layoutX="27.0" layoutY="391.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Copyright" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="citareWikiButton" layoutX="27.0" layoutY="425.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Citare Wikipedia" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="faqButton" layoutX="27.0" layoutY="458.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="FAQ" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginButton" layoutX="507.0" layoutY="62.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" text="Login" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginSignupButton" layoutX="615.0" layoutY="62.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" text="Registrati" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Text layoutX="203.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Benvenuti su Wikipedia" wrappingWidth="241.70556640625">
+         <font>
+            <Font name="Helvetica" size="40.0" />
+         </font>
+      </Text>
+      <Text layoutX="194.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="L'enciclopedia libera e collaborativa" textAlignment="CENTER" wrappingWidth="259.70556640625">
+         <font>
+            <Font name="Helvetica" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="238.0" layoutY="659.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wikipedia non dà garanzie sulla validità dei contenuti" textAlignment="CENTER" wrappingWidth="412.70556640625">
+         <font>
+            <Font name="Helvetica Light Oblique" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="260.0" layoutY="682.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ogni contributore è responsabile dei propri inserimenti." textAlignment="CENTER" wrappingWidth="412.70556640625">
+         <font>
+            <Font name="Helvetica Light Oblique" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="logoWikiButton" fitHeight="150.0" fitWidth="200.0" layoutX="34.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/itwiki.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

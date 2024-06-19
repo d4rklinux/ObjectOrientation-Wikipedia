@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.CitareWikipediaController">
+   <children>
+      <Text layoutX="233.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se si desidera riutilizzare uno o più testi presenti su Wikipedia, così come creare opere derivate, è un atto dovuto citare gli autori. " textAlignment="CENTER" wrappingWidth="552.70556640625">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="228.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Come Citare Wikipedia" wrappingWidth="287.70556640625">
+         <font>
+            <Font name="Helvetica" size="28.0" />
+         </font>
+      </Text>
+      <TextArea editable="false" layoutX="228.0" layoutY="176.0" prefHeight="497.0" prefWidth="559.0" text="Come con ogni altra fonte, c'è la necessità d'essere cauti e verificare in maniera indipendente l'accuratezza delle informazioni che si vogliono utilizzare: si veda a questo proposito anche la pagina FAQ&#10;&#10;•Come inserire un riferimento a Wikipedia in un proprio testo&#10;&#10;• Un progetto wiki è un mezzo di comunicazione particolare, e in quanto tale non si adatta perfettamente ai formati usuali di citazione. Wikipedia è un'enciclopedia non cartacea, c'è quindi bisogno di un formato che sia elettronico, e la scelta dipenderà dalla guida bibliografica che si sta seguendo, ma ci sono alcuni principi generali a cui attenersi.&#10;• In caso di semplice riferimento ad una voce di Wikipedia, e solo in questo caso, non è necessario citare uno specifico autore o gruppo di autori di una voce di Wikipedia. Per sapere chi sono gli autori di una specifica voce, è sempre possibile consultare la relativa cronologia.&#10;• La citazione dovrà comprendere sia il titolo della voce, sia la dicitura Wikipedia, l'enciclopedia libera, alla stessa maniera in cui un normale articolo o testo cartaceo conterrà i dati relativi alle proprie fonti.&#10;• Per precisione, la citazione dovrebbe includere la data e l'ora della precisa versione della voce che si sta utilizzando. &#10;• Ogni voce di Wikipedia dalla quale si è attinto dovrebbe venire citata separatamente per rispettare i diritti dei rispettivi autori (non basta una citazione generale a Wikipedia).&#10;• In particolare è bene ricordare: questa enciclopedia non è modificata solamente da autori con esperienze certificate nel campo di cui si occupano. Chiunque ne può cambiare praticamente qualsiasi parte, e questo può renderla una fonte non accettabile in vari campi. Un insegnante potrebbe probabilmente non ritenerla abbastanza attendibile per una tesina, così come è generalmente inadatta per la stesura di progetti di ricerca scientifica attendibili.&#10;" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="73.0" fitWidth="61.0" layoutX="516.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/copyright/Copyright-problem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logoWikiButton" fitHeight="150.0" fitWidth="200.0" layoutX="64.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/itwiki.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="homeButton" layoutX="57.0" layoutY="384.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Home" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="contattiButton" layoutX="57.0" layoutY="419.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Contatti" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="copyrightButton" layoutX="57.0" layoutY="455.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Copyright" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="faqButton" layoutX="57.0" layoutY="492.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="FAQ" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
