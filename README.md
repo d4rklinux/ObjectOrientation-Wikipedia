@@ -38,16 +38,12 @@ The project is divided into main modules:
 
 Main - EDIT CONFIGURATION:
 
-<<<<<<< HEAD
-<img width="271" alt="Screenshot 2024-06-19 alle 12 01 16" src="https://github.com/d4rklinux/ObjectOrientation-Wikipedia/assets/78174817/2aa28353-b455-4607-aa22-906e8ff567ab">
-
-
 Enter the folder Path
 Build and run Insert
 Insert 
     
     --module-path YourFolder/Wikipedia/Modules/javafx-sdk-21.0.1/lib --add-modules=javafx.controls,javafx.fxml 
-=======
+
 <img width="271" alt="Screenshot 2024-06-19 alle 12 01 16" src="https://github.com/d4rklinux/ObjectOrientation-Wikipedia/assets/78174817/bcdc1d53-14b3-46ec-bb6f-8996a01f3f63">
 
 Select "+" - Application
@@ -64,30 +60,23 @@ Enter the folder Path
 Insert 
     
     --module-path Users/YourUsername/YourFolder/Wikipedia/Modules/javafx-sdk-21.0.1/lib --add-modules=javafx.controls,javafx.fxml 
->>>>>>> be2b9a687b96923c95b2c63d75bf904578595b42
 
 Working directory:
 Enter the path to the wikipedia folder
 
-<<<<<<< HEAD
-    Folder Wikipedia
-
-<img width="801" alt="Screenshot 2024-06-19 alle 12 01 38" src="https://github.com/d4rklinux/ObjectOrientation-Wikipedia/assets/78174817/8b37e9f0-ffad-447f-8eff-2ef5e2bcc868">
+Folder Wikipedia
 
 File
-=======
     /Users/YourUsername/YourFolder/ObjectOrientation-Wikipedia-main/Wikipedia
     
 <img width="797" alt="Screenshot 2024-06-19 alle 13 38 23" src="https://github.com/d4rklinux/ObjectOrientation-Wikipedia/assets/78174817/a1aec8fe-02cf-4e47-be38-b62b2f3b1f0e">
 
 
 # File
->>>>>>> be2b9a687b96923c95b2c63d75bf904578595b42
 
     Project Structure
     Project: SDK: azul-16
 
-<<<<<<< HEAD
 Modules
     
     Cartella progetto Dependencies: openjdk-21 (java version “21.0.2”)
@@ -95,7 +84,6 @@ Modules
     postgresql-42-7.1.jar
 
 Platform Settings 
-=======
 # Modules
     
     Dependencies project folder: openjdk-21 (java version “21.0.2”)
@@ -112,7 +100,6 @@ Make sure the libraries (lib) and PostgreSQL are properly installed
 
 
 # Platform Settings 
->>>>>>> be2b9a687b96923c95b2c63d75bf904578595b42
 
     SDKs: 
     20
@@ -120,13 +107,8 @@ Make sure the libraries (lib) and PostgreSQL are properly installed
     openjdk-21
     Global Librariers: jafafx-swt
 
-<<<<<<< HEAD
-    
-
-=======
 # Problems
 
 If any errors appear, go to "Problems" to resolve them.
 
 Once you have completed all the steps, remember to insert the database into PostgreSQL. In the program, inside the "database" folder under "configs", enter your PostgreSQL password.
->>>>>>> be2b9a687b96923c95b2c63d75bf904578595b42
