@@ -35,14 +35,9 @@ The project is divided into main modules:
     Search engine module: efficient search within textual content.
 
 # IntelliJ IDEA Mac APP Opening Procedure
+Install intelliJ IDEA and perform the following steps
 
-Main - EDIT CONFIGURATION:
-
-Enter the folder Path
-Build and run Insert
-Insert 
-    
-    --module-path YourFolder/Wikipedia/Modules/javafx-sdk-21.0.1/lib --add-modules=javafx.controls,javafx.fxml 
+# Main - EDIT CONFIGURATION:
 
 <img width="271" alt="Screenshot 2024-06-19 alle 12 01 16" src="https://github.com/d4rklinux/ObjectOrientation-Wikipedia/assets/78174817/bcdc1d53-14b3-46ec-bb6f-8996a01f3f63">
 
@@ -65,8 +60,7 @@ Working directory:
 Enter the path to the wikipedia folder
 
 Folder Wikipedia
-
-File
+    
     /Users/YourUsername/YourFolder/ObjectOrientation-Wikipedia-main/Wikipedia
     
 <img width="797" alt="Screenshot 2024-06-19 alle 13 38 23" src="https://github.com/d4rklinux/ObjectOrientation-Wikipedia/assets/78174817/a1aec8fe-02cf-4e47-be38-b62b2f3b1f0e">
