@@ -4,6 +4,7 @@
 Object Orientation project for the Federico II University of Naples
 
 Description:
+
 WikiJava is a web application similar to Wikipedia, developed in Java, which allows users to create, edit and consult encyclopedic content. The system implements a collaboration model between authors and users, guaranteeing the quality and reliability of the information.
 
 Main features:
@@ -43,7 +44,7 @@ Install intelliJ IDEA and perform the following steps
 
 Select "+" - Application
 
-insert sample.Main into build and run
+Insert sample.Main into build and run
 
 <img width="532" alt="Screenshot 2024-06-19 alle 14 47 54" src="https://github.com/d4rklinux/ObjectOrientation-Wikipedia/assets/78174817/e21fcccd-93a9-4996-879f-429c91e9c9c4">
 
@@ -52,7 +53,6 @@ insert sample.Main into build and run
 Add VM Options
 
 Enter the folder Path
-Insert 
     
     --module-path Users/YourUsername/YourFolder/Wikipedia/Modules/javafx-sdk-21.0.1/lib --add-modules=javafx.controls,javafx.fxml 
 
@@ -105,4 +105,4 @@ Make sure the libraries (lib) and PostgreSQL are properly installed
 
 If any errors appear, go to "Problems" to resolve them.
 
-Once you have completed all the steps, remember to insert the database into PostgreSQL. In the program, inside the "database" folder under "configs", enter your PostgreSQL password.
+Once you have completed all the steps, remember to insert the database into PostgreSQL. In the program, inside the "database" in folder  "configs", enter your PostgreSQL password.
