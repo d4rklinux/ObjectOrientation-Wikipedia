@@ -7,6 +7,9 @@ Description:
 
 WikiJava is a web application similar to Wikipedia, developed in Java, which allows users to create, edit and consult encyclopedic content. The system implements a collaboration model between authors and users, guaranteeing the quality and reliability of the information.
 
+<img width="793" alt="Screenshot 2024-06-21 alle 16 49 52" src="https://github.com/d4rklinux/ObjectOrientation-Wikipedia/assets/78174817/9b1b32bf-f00d-4bd6-b380-e88e3807fb81">
+
+
 Main features:
 
     User Management:
