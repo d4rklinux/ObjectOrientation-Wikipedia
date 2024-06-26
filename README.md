@@ -76,7 +76,7 @@ Folder Wikipedia
 
 Modules
     
-    Cartella progetto Dependencies: openjdk-21 (java version “21.0.2”)
+    Dependencies project folder: openjdk-21 (java version “21.0.2”)
     lib
     postgresql-42-7.1.jar
 
